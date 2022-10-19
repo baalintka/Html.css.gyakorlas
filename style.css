@@ -1,0 +1,15 @@
+#menu ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr); 
+}
+.tartalom{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+}
+#container{
+max-width: 800px;
+width: 80%;
+}
+img{
+    width: 300px;
+}
