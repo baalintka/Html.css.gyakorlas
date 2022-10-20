@@ -1,15 +1,53 @@
-#menu ul{
+body {
+    color: aliceblue;
+    background-color: #404040;
+}
+
+#menu ul {
     display: grid;
-    grid-template-columns: repeat(6,1fr); 
+    grid-template-columns: repeat(6, 1fr);
 }
-.tartalom{
-display:grid;
-grid-template-columns:repeat(3,1fr);
+
+.tartalom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
-#container{
-max-width: 800px;
-width: 80%;
+
+#container {
+    max-width: 800px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
-img{
-    width: 300px;
+
+img {
+    max-width: 300px;
+    width: 90%;
+}
+
+
+.cikk {
+    margin:auto;
+    text-align: center;
+}
+.cikk2{
+    margin:auto;
+    text-align: center;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-width: 2px  ;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #menu ul {
+        grid-template-columns: auto;
+    }
+
+    .tartalom {
+        grid-template-columns: 1fr;
+
+    }
+
 }
