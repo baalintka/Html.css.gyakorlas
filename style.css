@@ -29,6 +29,28 @@ body {
     grid-template-columns: 1fr 1fr;
     
 }
+.tartalom3{
+    background-color: black;
+    
+    
+
+}
+.cikk5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+.cikk6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.cikk7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
 
 
 
@@ -59,6 +81,9 @@ img#jobb{
     border-width: 2px  ;
     
 }
+.cikk3{
+    text-align: left;
+}
 
 @media only screen and (max-width: 600px) {
     #menu ul {
@@ -66,6 +91,13 @@ img#jobb{
     }
 
     .tartalom {
+        grid-template-columns: 1fr;
+
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .tartalom2{
         grid-template-columns: 1fr;
 
     }
